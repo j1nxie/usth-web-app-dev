@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    table tr:hover td {
+        background: #efefef;
+        cursor: pointer;
+        transition: background-color 0.25s ease;
+    }
+
+    .subject {
+        width: 180px;
+    }
+
+    .ects {
+        width: 90px;
+    }
+</style>
+
+<body>
+    <table>
+        <tr style="background-color: rgb(0, 71, 171);">
+            <th class="subject">Subject</th>
+            <th class="ects">ECTS</th>
+        </tr>
+        <tr style="background-color: rgb(111, 143, 175);">
+            <td class="subject">Math</td>
+            <td class="ects">3</td>
+        </tr>
+        <tr style="background-color: rgb(167, 199, 231);">
+            <td class="subject">Physics</td>
+            <td class="ects">5</td>
+        </tr>
+        <tr style="background-color: rgb(111, 143, 175);">
+            <td class="subject">Chemistry</td>
+            <td class="ects">4</td>
+        </tr>
+        <tr style="background-color: rgb(167, 199, 231);">
+            <td class="subject">English</td>
+            <td class="ects">3</td>
+        </tr>
+    </table>
+</body>
